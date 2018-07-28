@@ -5,6 +5,7 @@ import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
 import io.airlift.command.OptionType;
+import me.tongfei.progressbar.ProgressBar;
 
 /**
  * @author linxi
@@ -31,6 +32,24 @@ public class Default {
         @Override
         public void run() {
             System.out.println(new AShortUrl().execute(url));
+        }
+    }
+
+    @Command(name = "test", description = "")
+    public static class Test implements Runnable {
+        @Override
+        public void run() {
+            try (ProgressBar pb = new ProgressBar("test", 100)) {
+                for (int i = 0; i < 100; i++) {
+                    pb.step(); // step by 1
+                    pb.setExtraMessage("Reading...");
+                    try {
+                        Thread.sleep(100);
+                    } catch (Exception e) {
+
+                    }
+                }
+            }
         }
     }
 }

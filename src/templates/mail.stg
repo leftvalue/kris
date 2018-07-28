@@ -1,0 +1,198 @@
+mail(m,ws)::=<<
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>this is the title</title>
+    <style>
+        .outer {
+            width: 820pt;
+            background-color: rgb(226, 237, 255);
+            padding: 50pt;
+        }
+
+        .title {
+            font-size: 1.5em;
+            color: rgb(65, 65, 65);
+        }
+
+        header {
+            height: 80pt;
+            width: 100%;
+        }
+
+        header > img {
+            margin-left: 640pt;
+            margin-bottom: 30pt;
+        }
+
+        footer {
+            margin-top: 50pt;
+            height: 80pt;
+            width: 100%;
+            color: rgb(126, 141, 165);
+            font-size: 1.2em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        footer > p {
+            margin-left: 80pt;
+            margin-right: 80pt;
+        }
+
+        article {
+            background-color: white;
+            height: 500pt;
+            padding: 30pt;
+        }
+
+        table {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        table, tr, th, td {
+            empty-cells: show;
+            border: solid 1pt rgb(126, 141, 165);
+            border-collapse: collapse;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .menu {
+            background-color: rgb(226, 237, 255);
+        }
+
+        th, td {
+            padding: 5pt;
+        }
+
+        td {
+            word-wrap: break-word;
+        }
+
+        tbody tr:nth-child(2n), tbody tr.even {
+            background-color: rgb(242, 242, 242);
+        }
+
+        .info {
+            background-color: deepskyblue;
+            color: white;
+        }
+
+        .warn {
+            background-color: hotpink;
+            color: white;
+        }
+
+        .chunk {
+            border: 0;
+            border-radius: 3pt;
+            width: auto;
+            padding: 3pt;
+            margin: 3pt;
+        }
+
+        .name {
+            border: 0;
+            border-radius: 3pt;
+            width: auto;
+            padding: 3pt;
+            margin: 2px;
+            background-color: deepskyblue;
+            color: white;
+            text-align: center;
+        }
+
+        .name > img {
+            height: 1em;
+            width: 1em;
+            margin-left: 1px;
+            margin-right: 1px;
+        }
+
+        div.sign {
+            margin-top: 30pt;
+            width: 100%;
+        }
+
+        p.sign {
+            color: rgb(126, 141, 165);
+            font-size: 1.2em;
+            width: 100%;
+            margin: 1pt;
+            padding: 2pt;
+            padding-left: 85%;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <header>
+        <img width="220" height="40"
+             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAAAoCAYAAACVWZSOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpGOTk4QTZFRTE5Q0JFNjExODQ0N0QzNDQ0NERCMzQ5RSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowNDlERUE1OEQ5MzQxMUU2OUM3MEEyNkIzOTEzOTlDRiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowNDlERUE1N0Q5MzQxMUU2OUM3MEEyNkIzOTEzOTlDRiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQxNTc3RkFDQTREOEU2MTE4NDRFOUUzNjQyN0QzMjRFIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkY5OThBNkVFMTlDQkU2MTE4NDQ3RDM0NDQ0REIzNDlFIi8+IDwvcmRmOkRlc2NyaXB0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">
+    </header>
+    <article>
+        <table>
+            <thead>
+            <tr>
+                <th colspan="8" class="title">$m.title$</th>
+            </tr>
+            <tr>
+                <th colspan="8">
+                    <span class="chunk info">$m.start_time$</span>~<span class="chunk info">$m.end_time$</span>
+                </th>
+            </tr>
+            <tr class="menu">
+                <th>项目名称</th>
+                <th>工作内容</th>
+                <th>进度</th>
+                <th>开始时间</th>
+                <th>完成时间</th>
+                <th>负责人</th>
+                <th>项目进展情况简述</th>
+                <th>下周计划</th>
+            </tr>
+            </thead>
+            <tbody>
+           $ws:work()$
+            </tbody>
+        </table>
+        <div class="sign">
+            <p class="sign">$m.author$</p>
+            <p class="sign">$m.now$</p>
+        </div>
+    </article>
+    <footer>
+        <p>根据《共享电子文档安全管理总体规范》规定，工作周报属于公司内部级文件，</p>
+        <p>为公司对外保密信息，任何人未经许可不得向外泄露！</p>
+    </footer>
+</div>
+</body>
+</html>
+>>
+
+work(w)::=<<
+<tr>
+    <td>$w.name$</td>
+    <td>$w.detail$</td>
+    <td>$w.progress$</td>
+    <td>$w.start_time$</td>
+    <td>$w.end_time$</td>
+    <td>
+        $w.responsible_person:name()$
+    </td>
+    <td>$w.progress_summary$</td>
+    <td>$w.nextWeekPlan$</td>
+</tr>
+>>
+
+name(n)::=<<
+<p class="name">$n$</p>
+>>
