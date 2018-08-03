@@ -1,10 +1,13 @@
 package commands;
 
 import basetool.SystemClipboardTools;
+import extensions.EmlParser;
 import extensions.MailHtmlCreater;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
+
+import java.util.LinkedList;
 
 /**
  * @author linxi
@@ -31,6 +34,41 @@ public class Tencent {
             String template = new MailHtmlCreater().getSimpleTemplate(author, title, row_count);
             SystemClipboardTools.write(template);
             System.out.println("Success generate and copy to your clipboard !");
+        }
+    }
+
+    @Command(name = "servers", description = "get server ip and password from emls dir(export from foxmail)")
+    public static class ServerParser implements Runnable {
+        @Arguments(description = "dir of emls")
+        public String dir;
+
+        @Option(name = "-a", description = "output alias commands")
+        public boolean isAliasCommand = false;
+
+        @Option(name = "-prefix", description = "prefix of alias commands")
+        public String prefix = "z";
+
+        /**
+         * because there is no origin command starts with z
+         */
+        @Override
+        public void run() {
+            try {
+                LinkedList<EmlParser.Server> servers = new EmlParser().getServers(dir);
+                StringBuilder sb = new StringBuilder();
+                servers.forEach(s -> {
+                    if (ServerParser.this.isAliasCommand) {
+                        sb.append("alias " + prefix + s.getLast() + "='echo \"" + s.getPassword().replace("$", "\\$") + "\";ssh webroot@" + s.getIp() + "'\n");
+                    } else {
+                        sb.append(s + "\n");
+                    }
+                });
+                String output = sb.toString();
+                System.out.println(output);
+                SystemClipboardTools.write(output);
+            } catch (Exception e) {
+                System.out.println("Sorry,but get no server info");
+            }
         }
     }
 }

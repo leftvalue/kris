@@ -14,11 +14,12 @@ public class Kris {
         Cli.CliBuilder<Runnable> builder = Cli.<Runnable>builder("kris")
                 .withDescription("kristendi's tools that's change the world")
                 .withDefaultCommand(Help.class)
-                .withCommands(Help.class, Default.ShortenURL.class, Default.Test.class);
+                .withCommands(Help.class, Default.ShortenURL.class,
+                        Default.Encode.class, Default.Test.class);
         builder.withGroup("tencent")
                 .withDescription("some tools for daily use in tencent")
                 .withDefaultCommand(Tencent.Mail.class)
-                .withCommands(Tencent.Mail.class);
+                .withCommands(Tencent.Mail.class, Tencent.ServerParser.class);
         Cli<Runnable> krisParser = builder.build();
         try {
             krisParser.parse(args).run();

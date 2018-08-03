@@ -34,6 +34,9 @@ public class ResourceReader {
     }
 
     public String read() {
+        /**
+         * 一般用于读取项目本身的一些配置文件,而非程序运行时需要外部提供并读取的文件
+         */
         try {
             if (this.pattern == PATTERN.NOTFOUND) {
                 return "";

@@ -1,6 +1,7 @@
 package commands;
 
 import extensions.AShortUrl;
+import extensions.encode.Chardetect;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
@@ -32,6 +33,27 @@ public class Default {
         @Override
         public void run() {
             System.out.println(new AShortUrl().execute(url));
+        }
+    }
+
+    @Command(name = "encode", description = "About file encoding . . .(such as guess encoding/add BOM)")
+    public static class Encode implements Runnable {
+        @Option(type = OptionType.COMMAND, name = {"-f", "--from"}, description = "source file path")
+        public String frompath;
+        @Option(type = OptionType.COMMAND, name = {"-t", "--to"}, description = "target path after handle")
+        public String topath;
+        @Option(type = OptionType.COMMAND, name = {"-b", "--bom"}, description = "add BOM head to file (because excel believe a file encode with utf-8 when detect it with a BOM head)")
+        public boolean addBom;
+        @Option(type = OptionType.COMMAND, name = {"-g", "--guess"}, description = "guess the encode of one file")
+        public boolean guess;
+
+        @Override
+        public void run() {
+            if (addBom) {
+                new Chardetect(frompath, topath).addBom();
+            } else if (guess) {
+                System.out.println(new Chardetect(frompath).guessFileEncoding());
+            }
         }
     }
 
