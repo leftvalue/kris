@@ -4,11 +4,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/jline-3.9.0.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/libs/jline-3.9.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/libs/jline-3.9.0-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

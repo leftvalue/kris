@@ -9,21 +9,7 @@
       <root url="jar://$PROJECT_DIR$/libs/barchart-udt-bundle-2.3.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.24.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/libs/littleproxy-1.1.2-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/guava-20.0-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/commons-lang3-3.5-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/barchart-udt-bundle-2.3.0-javadoc.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.24-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/libs/littleproxy-1.1.2-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/guava-20.0-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/commons-lang3-3.5-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/barchart-udt-bundle-2.3.0-sources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/slf4j-api-1.7.24-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

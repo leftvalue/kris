@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact name="kris:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kris_jar</output-path>
+    <root id="root">
+      <element id="archive" name="kris.jar">
+        <element id="module-output" name="kris" />
+      </element>
+      <element id="library" level="project" name="me.tongfei:progressbar:0.7.0" />
+      <element id="library" level="project" name="org.littleshoot:littleproxy:1.1.2" />
+      <element id="library" level="project" name="org.jline:jline:3.9.0" />
+      <element id="library" level="project" name="chardet" />
+      <element id="library" level="project" name="org.antlr:ST4:4.0.8" />
+      <element id="library" level="project" name="com.melloware:jintellitype:1.3.9" />
+      <element id="library" level="project" name="io.airlift:airline:0.5" />
+      <element id="library" level="project" name="com.github.ganskef:littleproxy-mitm:1.1.0" />
+      <element id="library" level="project" name="com.alibaba:fastjson:1.2.16" />
+      <element id="library" level="project" name="org.jsoup:jsoup:1.11.3" />
+    </root>
+  </artifact>
+</component>
