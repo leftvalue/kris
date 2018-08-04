@@ -1,9 +1,6 @@
 package test;
 
-import org.jline.terminal.Terminal;
-import org.jline.terminal.TerminalBuilder;
-
-import java.io.IOException;
+import java.net.UnknownHostException;
 
 /**
  * @author linxi
@@ -12,8 +9,7 @@ import java.io.IOException;
  * Date 2018/7/30 4:32 PM
  */
 public class JlineTest {
-    public static void main(String[] args) throws IOException {
-        Terminal terminal = TerminalBuilder.terminal();
-        terminal.echo();
+    public static void main(String[] args) throws UnknownHostException {
+
     }
 }

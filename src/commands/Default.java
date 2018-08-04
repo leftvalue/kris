@@ -1,12 +1,15 @@
 package commands;
 
 import extensions.AShortUrl;
+import extensions.Proxy;
 import extensions.encode.Chardetect;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
 import io.airlift.command.OptionType;
 import me.tongfei.progressbar.ProgressBar;
+
+import java.net.InetAddress;
 
 /**
  * @author linxi
@@ -54,6 +57,33 @@ public class Default {
             } else if (guess) {
                 System.out.println(new Chardetect(frompath).guessFileEncoding());
             }
+        }
+    }
+
+    @Command(name = "ip", description = "get LocalHost HostName / CanonicalHostName")
+    public static class Ip implements Runnable {
+        @Override
+        public void run() {
+            try {
+                InetAddress address = InetAddress.getLocalHost();
+                System.out.println(address.getCanonicalHostName());
+                System.out.println(address.getHostName());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    @Command(name = "proxy", description = "A http proxy that allow u to tracert source of some information")
+    public static class HttpProxy implements Runnable {
+        @Option(type = OptionType.COMMAND, name = {"-p", "--port"}, description = "the port that the proxy listen(default 8888)")
+        public int port = 8888;
+        @Option(type = OptionType.COMMAND, name = {"-k", "--keyword"}, description = "regex pattern of keyword to match your target response body(default empty,run on transparent mode without analyse)")
+        public String keyword = "";
+
+        @Override
+        public void run() {
+            new Proxy(port, keyword).listen();
         }
     }
 

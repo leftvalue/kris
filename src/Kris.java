@@ -15,7 +15,8 @@ public class Kris {
                 .withDescription("kristendi's tools that's change the world")
                 .withDefaultCommand(Help.class)
                 .withCommands(Help.class, Default.ShortenURL.class,
-                        Default.Encode.class, Default.Test.class);
+                        Default.Encode.class, Default.Test.class
+                        , Default.Ip.class, Default.HttpProxy.class);
         builder.withGroup("tencent")
                 .withDescription("some tools for daily use in tencent")
                 .withDefaultCommand(Tencent.Mail.class)
