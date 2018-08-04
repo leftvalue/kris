@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kris-proxy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/kris-proxy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

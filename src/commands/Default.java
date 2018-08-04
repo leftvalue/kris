@@ -1,7 +1,6 @@
 package commands;
 
 import extensions.AShortUrl;
-import extensions.Proxy;
 import extensions.encode.Chardetect;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
@@ -10,6 +9,7 @@ import io.airlift.command.OptionType;
 import me.tongfei.progressbar.ProgressBar;
 
 import java.net.InetAddress;
+import java.net.Proxy;
 
 /**
  * @author linxi
@@ -83,7 +83,7 @@ public class Default {
 
         @Override
         public void run() {
-            new Proxy(port, keyword).listen();
+            new extensions.Proxy(port, keyword).listen();
         }
     }
 

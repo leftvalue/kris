@@ -1,14 +1,3 @@
 Manifest-Version: 1.0
-Class-Path: progressbar-0.7.0.jar jline-3.6.1.jar littleproxy-1.1.2.ja
- r guava-20.0.jar commons-lang3-3.5.jar netty-all-4.0.44.Final.jar bar
- chart-udt-bundle-2.3.0.jar slf4j-api-1.7.24.jar jsoup-1.10.3.jar LvJs
- on.jar jline-3.9.0.jar chardet.jar commons-io-2.6.jar ST4-4.0.8.jar a
- ntlr-runtime-3.5.2.jar jintellitype-1.3.9.jar airline-0.5.jar javax.i
- nject-1.jar guava-12.0.jar jsr305-1.3.9.jar littleproxy-mitm-1.1.0.ja
- r bcprov-jdk15on-1.51.jar bcpkix-jdk15on-1.51.jar littleproxy-1.1.0.j
- ar guava-18.0.jar commons-cli-1.3.1.jar commons-codec-1.10.jar common
- s-io-2.4.jar commons-lang3-3.4.jar netty-all-4.0.36.Final.jar barchar
- t-udt-bundle-2.3.0.jar slf4j-api-1.7.21.jar slf4j-log4j12-1.7.21.jar 
- log4j-1.2.17.jar
 Main-Class: Kris
 

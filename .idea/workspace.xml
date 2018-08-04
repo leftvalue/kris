@@ -2,82 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="kris:jar" />
+      <artifact name="kris:jar2" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51c1a39-3fb0-42ba-a946-8f3c6947ec24" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/kris_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_github_ganskef_littleproxy_mitm_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/com_github_ganskef_littleproxy_mitm_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_melloware_jintellitype_1_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/com_melloware_jintellitype_1_3_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/io_airlift_airline_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/io_airlift_airline_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_10_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/me_tongfei_progressbar_0_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/me_tongfei_progressbar_0_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_antlr_ST4_4_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_antlr_ST4_4_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_jline_jline_3_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_jline_jline_3_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_littleshoot_littleproxy_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_littleshoot_littleproxy_1_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/kris_proxy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/kris-proxy.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kris_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_github_ganskef_littleproxy_mitm_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_littleshoot_littleproxy_1_1_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/ST4-4.0.8-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/ST4-4.0.8-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/airline-0.5-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/airline-0.5-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/antlr-runtime-3.5.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/antlr-runtime-3.5.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/barchart-udt-bundle-2.3.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/barchart-udt-bundle-2.3.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/bcpkix-jdk15on-1.51-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/bcpkix-jdk15on-1.51-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/bcprov-jdk15on-1.51-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/bcprov-jdk15on-1.51-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-cli-1.3.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-cli-1.3.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-codec-1.10-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-codec-1.10-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-io-2.4-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-io-2.4-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-lang3-3.4-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-lang3-3.4-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-lang3-3.5-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/commons-lang3-3.5-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/guava-12.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/guava-12.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/guava-18.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/guava-18.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/guava-20.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/guava-20.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/javax.inject-1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/javax.inject-1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jintellitype-1.3.9-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jintellitype-1.3.9-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jline-3.6.1-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jline-3.6.1-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jline-3.9.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jline-3.9.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jsoup-1.10.3-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jsoup-1.11.3-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/littleproxy-1.1.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/littleproxy-1.1.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/littleproxy-1.1.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/littleproxy-1.1.2-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/littleproxy-mitm-1.1.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/littleproxy-mitm-1.1.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/log4j-1.2.17-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/log4j-1.2.17-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/netty-all-4.0.36.Final-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/netty-all-4.0.36.Final-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/netty-all-4.0.44.Final-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/progressbar-0.7.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/progressbar-0.7.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/slf4j-api-1.7.21-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/slf4j-api-1.7.21-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/slf4j-api-1.7.24-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/slf4j-api-1.7.24-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/slf4j-log4j12-1.7.21-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/slf4j-log4j12-1.7.21-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kris.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kris/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Default.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/Proxy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,14 +30,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Default.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Default.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="80" column="199" selection-start-line="80" selection-start-column="199" selection-end-line="80" selection-end-column="199" />
+            <state relative-caret-position="302">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3270#3271#0" expanded="true" />
+                <element signature="e#3338#3339#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -104,20 +56,8 @@
       <file leaf-file-name="Kris.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="133">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,11 +120,11 @@
         <option value="$PROJECT_DIR$/src/extensions/proxy/XSLTResponseModifierAdapter.java" />
         <option value="$PROJECT_DIR$/src/extensions/proxy/RegExResponseModifierAdapter.java" />
         <option value="$PROJECT_DIR$/src/extensions/proxy/ResponseModifierSourceAdapter.java" />
-        <option value="$PROJECT_DIR$/src/commands/Default.java" />
         <option value="$PROJECT_DIR$/src/Kris.java" />
-        <option value="$PROJECT_DIR$/src/extensions/Proxy.java" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/extensions/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/commands/Default.java" />
       </list>
     </option>
   </component>
@@ -194,7 +134,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
@@ -237,23 +177,7 @@
             <path>
               <item name="kris" type="b2602c69:ProjectViewProjectNode" />
               <item name="kris" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kris" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kris" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,15 +234,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources/templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src/extensions/proxy" />
       <recent name="$PROJECT_DIR$/src/extensions/encode" />
-      <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="extensions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,15 +401,16 @@
       <workItem from="1532915613508" duration="222000" />
       <workItem from="1532915953769" duration="14121000" />
       <workItem from="1533175925375" duration="27757000" />
-      <workItem from="1533377753329" duration="3569000" />
+      <workItem from="1533377753329" duration="8084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88338000" />
+    <option name="totallyTimeSpent" value="92853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -496,10 +424,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44347826" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62608695" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2057971" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -619,6 +547,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -787,30 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="80" column="199" selection-start-line="80" selection-start-column="199" selection-end-line="80" selection-end-column="199" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kris.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,12 +743,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
+    <entry file="file://$PROJECT_DIR$/src/Kris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="133">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3270#3271#0" expanded="true" />
+            <element signature="e#3338#3339#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -852,7 +783,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -932,7 +862,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>io.airlift:airline:0.5</last-edited>
+          <last-edited>kris-proxy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
