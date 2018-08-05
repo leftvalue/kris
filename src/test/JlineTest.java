@@ -1,6 +1,5 @@
 package test;
 
-import java.net.UnknownHostException;
 
 /**
  * @author linxi
@@ -9,7 +8,9 @@ import java.net.UnknownHostException;
  * Date 2018/7/30 4:32 PM
  */
 public class JlineTest {
-    public static void main(String[] args) throws UnknownHostException {
+    public static void main(String[] args) throws Exception {
 
     }
+
+
 }

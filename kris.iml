@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/templates" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/sounds" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -19,5 +20,6 @@
     <orderEntry type="library" name="com.alibaba:fastjson:1.2.16" level="project" />
     <orderEntry type="library" name="kris-proxy" level="project" />
     <orderEntry type="library" name="commons-io-2.4" level="project" />
+    <orderEntry type="library" name="org.fusesource.jansi:jansi:1.17.1" level="project" />
   </component>
 </module>

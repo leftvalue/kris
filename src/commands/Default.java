@@ -1,15 +1,16 @@
 package commands;
 
 import extensions.AShortUrl;
+import extensions.SuperTerminalMode;
 import extensions.encode.Chardetect;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
 import io.airlift.command.OptionType;
 import me.tongfei.progressbar.ProgressBar;
+import test.JlineTest;
 
 import java.net.InetAddress;
-import java.net.Proxy;
 
 /**
  * @author linxi
@@ -87,21 +88,34 @@ public class Default {
         }
     }
 
-    @Command(name = "test", description = "")
-    public static class Test implements Runnable {
+    @Command(name = "terminal", description = "Run on super terminal mode")
+    public static class TerminalMode implements Runnable {
         @Override
         public void run() {
-            try (ProgressBar pb = new ProgressBar("test", 100)) {
-                for (int i = 0; i < 100; i++) {
-                    pb.step(); // step by 1
-                    pb.setExtraMessage("Reading...");
-                    try {
-                        Thread.sleep(100);
-                    } catch (Exception e) {
+            new SuperTerminalMode().start();
+        }
+    }
 
-                    }
-                }
+    @Command(name = "qinqin", description = "")
+    public static class Test implements Runnable {
+
+        @Override
+        public void run() {
+            try {
+                JlineTest.main(null);
+            } catch (Exception e) {
             }
+//            try (ProgressBar pb = new ProgressBar("test", 100)) {
+//                for (int i = 0; i < 100; i++) {
+//                    pb.step(); // step by 1
+//                    pb.setExtraMessage("Reading...");
+//                    try {
+//                        Thread.sleep(100);
+//                    } catch (Exception e) {
+//
+//                    }
+//                }
+//            }
         }
     }
 }

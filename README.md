@@ -1,6 +1,12 @@
 # kris 🙋
 ## Background
 Tired for those repeated things,hating doing some stupid thing manually,and do not want to create plenty of little script app and try to remember their name as well as use method.so I decide to create the CLI tool.
+## Mode
+* Command mode 
+ > Once command,once run
+ 
+* Super Terminal mode
+ > The app listen the terminal and response to all your words (fluncy)
 ## Realized function
 ### Default Package
 * Shorten URL
@@ -10,6 +16,8 @@ Tired for those repeated things,hating doing some stupid thing manually,and do n
 ### Tencent Package
 * Generate tencent weekly email template html
 * Read mails(exported as eml using foxmail) and output latest password of servers
+### Fun package
+* Typewriter : a magic colorful typewriter, get input from system clipboard, print with G80 sounds
 ## Thanks for
 * [airlift/airline]( https://github.com/airlift/airline/issues) An excellent Java annotation-based framework for parsing Git like command line structures
 * [jline/jline3](https://github.com/jline/jline3) A Java library for handling console input
@@ -20,3 +28,5 @@ Tired for those repeated things,hating doing some stupid thing manually,and do n
 * [jintellitype](https://code.google.com/archive/p/jintellitype/) A Java API for interacting with Microsoft Intellitype commands as well as registering for Global Hotkeys in your Java application
 * [jChardet](http://jchardet.sourceforge.net/index.html) A java port of the source from mozilla's automatic charset detection algorithm
 * [Apache Commons IO](https://commons.apache.org/proper/commons-io/download_io.cgi) A library of utilities to assist with developing IO functionality
+* [adamfisk/LittleProxy](https://github.com/adamfisk/LittleProxy) High performance HTTP proxy originally written by your friends at Lantern and now maintained by a stellar group of volunteer open source programmers
+* [Jansi](http://fusesource.github.io/jansi) A Java library that allows you to use ANSI escape sequences to format your console output which works even on windows

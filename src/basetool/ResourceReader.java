@@ -56,7 +56,7 @@ public class ResourceReader {
                 /**
                  * JAR
                  */
-                InputStream is = this.getClass().getResourceAsStream("/templates/mail.stg");
+                InputStream is = this.getClass().getResourceAsStream(path);
                 BufferedReader br = new BufferedReader(new InputStreamReader(is));
                 String s = "";
                 StringBuffer sb = new StringBuffer();

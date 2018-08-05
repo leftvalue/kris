@@ -22,15 +22,15 @@ public class SystemClipboardTools {
      * @return
      */
     public static String get() {
-        Transferable clipTf = sysClip.getContents(null);
-        if (clipTf.isDataFlavorSupported(DataFlavor.stringFlavor)) {
-            try {
+        try {
+            Transferable clipTf = sysClip.getContents(null);
+            if (clipTf.isDataFlavorSupported(DataFlavor.stringFlavor)) {
                 String line = (String) clipTf.getTransferData(DataFlavor.stringFlavor);
                 return line;
-            } catch (Exception e) {
-                return e.getMessage();
+            } else {
+                return "";
             }
-        } else {
+        } catch (Exception e) {
             return "";
         }
     }
