@@ -2,7 +2,8 @@ package commands;
 
 import extensions.AShortUrl;
 import extensions.SuperTerminalMode;
-import extensions.encode.Chardetect;
+import extensions.Chardetect;
+import extensions.YoudaoDictTerminal;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
@@ -96,26 +97,30 @@ public class Default {
         }
     }
 
-    @Command(name = "qinqin", description = "")
+    @Command(name = "dict", description = "Youdao dictionary terminal with auto completion when <TAB> key down")
+    public static class Youdao implements Runnable {
+        @Override
+        public void run() {
+            YoudaoDictTerminal.start();
+        }
+    }
+
+    @Command(name = "ok", description = "")
     public static class Test implements Runnable {
 
         @Override
         public void run() {
-            try {
-                JlineTest.main(null);
-            } catch (Exception e) {
+            try (ProgressBar pb = new ProgressBar("test", 100)) {
+                for (int i = 0; i < 100; i++) {
+                    pb.step(); // step by 1
+                    pb.setExtraMessage("Reading...");
+                    try {
+                        Thread.sleep(100);
+                    } catch (Exception e) {
+
+                    }
+                }
             }
-//            try (ProgressBar pb = new ProgressBar("test", 100)) {
-//                for (int i = 0; i < 100; i++) {
-//                    pb.step(); // step by 1
-//                    pb.setExtraMessage("Reading...");
-//                    try {
-//                        Thread.sleep(100);
-//                    } catch (Exception e) {
-//
-//                    }
-//                }
-//            }
         }
     }
 }

@@ -1,6 +1,9 @@
 package test;
 
 
+import extensions.SuperTerminalMode;
+import extensions.YoudaoDictTerminal;
+
 /**
  * @author linxi
  * www.leftvalue.top
@@ -9,7 +12,8 @@ package test;
  */
 public class JlineTest {
     public static void main(String[] args) throws Exception {
-
+        new SuperTerminalMode().start();
+//        YoudaoDictTerminal.start();
     }
 
 

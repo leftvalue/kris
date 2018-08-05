@@ -13,6 +13,7 @@ Tired for those repeated things,hating doing some stupid thing manually,and do n
 * Guess file encoding / add BOM to file
 * Get LocalHost Name/Ip
 * A http proxy that helps analyse response to found matched request
+* Youdao English-Chinese Dictionary with <TAB> completion
 ### Tencent Package
 * Generate tencent weekly email template html
 * Read mails(exported as eml using foxmail) and output latest password of servers

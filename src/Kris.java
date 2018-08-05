@@ -17,7 +17,7 @@ public class Kris {
                 .withDefaultCommand(Help.class)
                 .withCommands(Help.class, Default.ShortenURL.class,
                         Default.Encode.class, Default.Test.class
-                        , Default.Ip.class, Default.HttpProxy.class, Default.TerminalMode.class);
+                        , Default.Ip.class, Default.HttpProxy.class, Default.TerminalMode.class, Default.Youdao.class);
         builder.withGroup("tencent")
                 .withDescription("some tools for daily use in tencent")
                 .withDefaultCommand(Tencent.Mail.class)
@@ -31,7 +31,7 @@ public class Kris {
             krisParser.parse(args).run();
         } catch (Exception e) {
             System.out.println("Invalid Command :(");
-            krisParser.parse("helo").run();
+            krisParser.parse("help").run();
         }
     }
 }
