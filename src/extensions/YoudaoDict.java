@@ -105,6 +105,9 @@ class YoudaoDictComplete {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        if (candidates.isEmpty()) {
+            System.out.println("别找啦,没有你想要的联想");
+        }
         return candidates;
     }
 }

@@ -17,7 +17,7 @@ public class Kris {
                 .withDefaultCommand(Help.class)
                 .withCommands(Help.class, Default.ShortenURL.class,
                         Default.Encode.class, Default.Test.class
-                        , Default.Ip.class, Default.HttpProxy.class, Default.TerminalMode.class, Default.Youdao.class);
+                        , Default.Ip.class, Default.HttpProxy.class, Default.TerminalMode.class, Default.Youdao.class, Default.KrisServer.class);
         builder.withGroup("tencent")
                 .withDescription("some tools for daily use in tencent")
                 .withDefaultCommand(Tencent.Mail.class)

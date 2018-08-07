@@ -1,5 +1,6 @@
 package extensions;
 
+import basetool.Characters;
 import basetool.Colors;
 import org.fusesource.jansi.Ansi;
 import org.jline.reader.*;
@@ -33,18 +34,32 @@ public class YoudaoDictTerminal {
                     .completer(new Completer() {
                         @Override
                         public void complete(LineReader lineReader, ParsedLine parsedLine, List<Candidate> list) {
-                            String keyword = parsedLine.word();
-                            LinkedList<String> candidates = YoudaoDictComplete.getCandidates(keyword);
-                            for (String candidate : candidates) {
-                                list.add(new Candidate(candidate));
+                            try {
+                                String keyword = parsedLine.word();
+                                LinkedList<String> candidates = YoudaoDictComplete.getCandidates(keyword);
+                                for (String candidate : candidates) {
+                                    list.add(new Candidate(candidate));
+                                }
+                            } catch (Exception e) {
+                                //pass
                             }
                         }
                     })
                     .build();
+            lineReader.setOpt(LineReader.Option.COMPLETE_IN_WORD);
             String line = "";
             while (true) {
                 if (!(line = lineReader.readLine(prefix)).equals("")) {
-                    YoudaoDict.searchEng(line);
+                    try {
+                        line = line.trim();
+                        if (Characters.isChinese(line.charAt(0))) {
+                            IcibaDict.searchChn(line);
+                        } else {
+                            YoudaoDict.searchEng(line);
+                        }
+                    } catch (Exception e) {
+                        System.out.println("Search Error");
+                    }
                 } else {
                     System.out.println(prefix);
                 }

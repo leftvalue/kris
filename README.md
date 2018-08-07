@@ -14,6 +14,7 @@ Tired for those repeated things,hating doing some stupid thing manually,and do n
 * Get LocalHost Name/Ip
 * A http proxy that helps analyse response to found matched request
 * Youdao English-Chinese Dictionary with <TAB> completion
+* Simple HttpServer ,used for test network stata or set up a file download server in LAN
 ### Tencent Package
 * Generate tencent weekly email template html
 * Read mails(exported as eml using foxmail) and output latest password of servers
@@ -31,3 +32,4 @@ Tired for those repeated things,hating doing some stupid thing manually,and do n
 * [Apache Commons IO](https://commons.apache.org/proper/commons-io/download_io.cgi) A library of utilities to assist with developing IO functionality
 * [adamfisk/LittleProxy](https://github.com/adamfisk/LittleProxy) High performance HTTP proxy originally written by your friends at Lantern and now maintained by a stellar group of volunteer open source programmers
 * [Jansi](http://fusesource.github.io/jansi) A Java library that allows you to use ANSI escape sequences to format your console output which works even on windows
+* [Spark](http://sparkjava.com) A micro framework for creating web applications in Kotlin and Java 8 with minimal effort

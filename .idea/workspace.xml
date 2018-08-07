@@ -7,22 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51c1a39-3fb0-42ba-a946-8f3c6947ec24" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basetool/EscapeUnescape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extensions/YoudaoDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/me_tongfei_progressbar_0_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/me_tongfei_progressbar_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spark.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/spark.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basetool/Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/IcibaDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kris_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kris_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kris.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$Encode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$Encode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/encode/Chardetect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/test/JlineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/test/JlineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/Proxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/Proxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictComplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictComplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kris.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Default.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extensions/encode/Chardetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/Chardetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/JlineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/JlineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/YoudaoDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/YoudaoDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,27 +37,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/kris$IcibaDict.ic" NAME="IcibaDict Coverage Results" MODIFIED="1533632017719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>extensions.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Default.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+            <state relative-caret-position="194">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3831#3832#0" expanded="true" />
-                <element signature="e#3881#3882#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kris.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Kris.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="19" column="117" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
+            <state relative-caret-position="146">
+              <caret line="19" column="143" selection-start-line="19" selection-start-column="143" selection-end-line="19" selection-end-column="143" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,24 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuperTerminalMode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/extensions/SuperTerminalMode.java">
+      <file leaf-file-name="SparkHttpServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/extensions/SparkHttpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1565#1575#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoudaoDict.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/extensions/YoudaoDict.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1132">
-              <caret line="87" column="57" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
+            <state relative-caret-position="105">
+              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,73 +80,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="42">
-                <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <first_editor relative-caret-position="161">
+                <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EscapeUnescape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basetool/EscapeUnescape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YoudaoDictTerminal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commands/Fun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-239">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JlineTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/JlineTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SoundTypeWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/extensions/SoundTypeWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -209,7 +145,6 @@
         <option value="$PROJECT_DIR$/src/extensions/proxy/RegExResponseModifierAdapter.java" />
         <option value="$PROJECT_DIR$/src/extensions/proxy/ResponseModifierSourceAdapter.java" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/src/extensions/Proxy.java" />
         <option value="$PROJECT_DIR$/src/extensions/SuperTerminalMode.java" />
         <option value="$PROJECT_DIR$/src/basetool/Colors.java" />
         <option value="$PROJECT_DIR$/src/basetool/ResourceReader.java" />
@@ -219,11 +154,15 @@
         <option value="$PROJECT_DIR$/src/commands/Fun.java" />
         <option value="$PROJECT_DIR$/src/basetool/EscapeUnescape.java" />
         <option value="$PROJECT_DIR$/src/test/JlineTest.java" />
-        <option value="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" />
         <option value="$PROJECT_DIR$/src/extensions/YoudaoDict.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/basetool/Characters.java" />
+        <option value="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" />
+        <option value="$PROJECT_DIR$/src/extensions/Proxy.java" />
+        <option value="$PROJECT_DIR$/src/extensions/IcibaDict.java" />
         <option value="$PROJECT_DIR$/src/commands/Default.java" />
         <option value="$PROJECT_DIR$/src/Kris.java" />
+        <option value="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -282,19 +221,7 @@
               <item name="kris" type="b2602c69:ProjectViewProjectNode" />
               <item name="kris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basetool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kris" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kris" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kris" type="b2602c69:ProjectViewProjectNode" />
@@ -351,15 +278,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/extensions/proxy" />
       <recent name="$PROJECT_DIR$/src/extensions/encode" />
       <recent name="$PROJECT_DIR$" />
@@ -383,9 +310,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JlineTest">
+  <component name="RunManager" selected="Application.SparkHttpServer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="IcibaDict" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extensions.IcibaDict" />
+      <module name="kris" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extensions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="JlineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.JlineTest" />
@@ -398,22 +336,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Kris" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kris" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extensions.Proxy" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extensions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Sound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basetool.Sound" />
       <module name="kris" />
@@ -421,6 +343,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basetool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SparkHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extensions.SparkHttpServer" />
+      <module name="kris" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extensions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,19 +426,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.Kris" />
       <item itemvalue="Application.JlineTest" />
-      <item itemvalue="Application.Proxy" />
       <item itemvalue="Application.Sound" />
       <item itemvalue="Application.YoudaoDict" />
+      <item itemvalue="Application.IcibaDict" />
+      <item itemvalue="Application.SparkHttpServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkHttpServer" />
+        <item itemvalue="Application.IcibaDict" />
         <item itemvalue="Application.JlineTest" />
         <item itemvalue="Application.YoudaoDict" />
         <item itemvalue="Application.Sound" />
-        <item itemvalue="Application.Kris" />
-        <item itemvalue="Application.Proxy" />
       </list>
     </recent_temporary>
   </component>
@@ -524,46 +457,56 @@
       <workItem from="1532915613508" duration="222000" />
       <workItem from="1532915953769" duration="14121000" />
       <workItem from="1533175925375" duration="27757000" />
-      <workItem from="1533377753329" duration="27341000" />
+      <workItem from="1533377753329" duration="48332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112110000" />
+    <option name="totallyTimeSpent" value="133101000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4988662" weight="0.24964234" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3289855" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Regex Tester" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38115942" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39130434" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62753624" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5011338" side_tool="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2826087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -605,50 +548,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/littleproxy-1.1.2-sources.jar!/org/littleshoot/proxy/HttpFiltersAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="135" column="50" selection-start-line="135" selection-start-column="50" selection-end-line="135" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="911" selection-start-line="911" selection-end-line="911" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="342" selection-start-line="342" selection-end-line="342" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -739,13 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="420" column="54" lean-forward="true" selection-start-line="420" selection-start-column="54" selection-end-line="420" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="108" column="28" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -927,33 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/EscapeUnescape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/YoudaoDict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1132">
-          <caret line="87" column="57" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/extensions/SuperTerminalMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -965,35 +838,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="42">
-            <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$USER_HOME$/.ideaLibSources/jline-3.6.1-sources.jar!/org/jline/reader/LineReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1681">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16837#16838#0" expanded="true" />
+            <element signature="e#16872#16873#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
+    <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+          <caret line="133" column="35" lean-forward="true" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/Characters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/IcibaDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3831#3832#0" expanded="true" />
-            <element signature="e#3881#3882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/YoudaoDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="54" column="96" selection-start-line="54" selection-start-column="96" selection-end-line="54" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/EscapeUnescape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/spark.jar!/spark/Spark.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
+          <folding>
+            <element signature="e#11855#11856#0" expanded="true" />
+            <element signature="e#11895#11896#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="19" column="117" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
+        <state relative-caret-position="146">
+          <caret line="19" column="143" selection-start-line="19" selection-start-column="143" selection-end-line="19" selection-end-column="143" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/SparkHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="161">
+            <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1088,7 +1043,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.fusesource.jansi:jansi:1.17.1</last-edited>
+          <last-edited>spark</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

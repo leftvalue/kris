@@ -1,9 +1,6 @@
 package commands;
 
-import extensions.AShortUrl;
-import extensions.SuperTerminalMode;
-import extensions.Chardetect;
-import extensions.YoudaoDictTerminal;
+import extensions.*;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
@@ -102,6 +99,29 @@ public class Default {
         @Override
         public void run() {
             YoudaoDictTerminal.start();
+        }
+    }
+
+    @Command(name = "httpserver", description = "start a simple http server")
+    public static class KrisServer implements Runnable {
+        @Option(name = {"-p", "--port"}, description = "the port that server listen")
+        public int port = 80;
+        @Option(name = "--path", description = "the path of the file server")
+        public String filepath;
+        @Option(name = {"-c", "--content"}, description = "the response body that server will return")
+        public String content;
+
+        @Override
+        public void run() {
+            SparkHttpServer server = new SparkHttpServer();
+            server.setPort(port);
+            if (content != null) {
+                server.setContent(content);
+            }
+            if (filepath != null) {
+                server.setFilePath(filepath);
+            }
+            server.start();
         }
     }
 

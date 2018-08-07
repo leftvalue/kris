@@ -1,9 +1,11 @@
 package extensions;
 
+import basetool.Colors;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.*;
 import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder;
 import io.netty.handler.codec.http.multipart.InterfaceHttpData;
+import org.fusesource.jansi.Ansi;
 import org.littleshoot.proxy.HttpFilters;
 import org.littleshoot.proxy.HttpFiltersAdapter;
 import org.littleshoot.proxy.HttpFiltersSourceAdapter;
@@ -95,7 +97,7 @@ public class Proxy {
                                             Matcher matcher = keyword_pattern.matcher(content);
                                             if (matcher.find()) {
                                                 System.out.println("[ FOUND " + keyword_pattern.pattern() + " ]" + req.getUri());
-                                                System.out.println(parseCURLCommand(req));
+                                                System.out.println(Colors.getCS(Ansi.Color.YELLOW, parseCURLCommand(req)));
                                             }
                                         }
                                         return super.serverToProxyResponse(httpObject);
@@ -144,16 +146,19 @@ public class Proxy {
         sb.append("curl '");
         String url = req.getUri();
         sb.append(url);
-        sb.append("'\\\n");
+        /**
+         * remember to add space before \\n
+         */
+        sb.append("' \\\n");
         /**
          * 其实在 Curl 里不需要把 cookie 单独拎出来
          */
         HttpHeaders headers = req.headers();
         for (Map.Entry<String, String> header : headers.entries()) {
-            sb.append("-H '").append(header.getKey()).append("=").append(header.getValue()).append("'\\\n");
+            sb.append("--header '").append(header.getKey()).append("=").append(header.getValue()).append("' \\\n");
         }
         HttpMethod method = req.getMethod();
-        if (method.name().equals("POST")) {
+        if ("POST".equals(method.name())) {
             sb.append("--data '");
             HttpPostRequestDecoder d = new HttpPostRequestDecoder(req);
             List<InterfaceHttpData> datas = d.getBodyHttpDatas();
