@@ -22,5 +22,6 @@
     <orderEntry type="library" name="commons-io-2.4" level="project" />
     <orderEntry type="library" name="org.fusesource.jansi:jansi:1.17.1" level="project" />
     <orderEntry type="library" name="spark" level="project" />
+    <orderEntry type="library" name="com.kenai.nbpwr:org-apache-batik-all:1.7-201003011305" level="project" />
   </component>
 </module>

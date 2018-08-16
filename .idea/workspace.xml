@@ -7,27 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51c1a39-3fb0-42ba-a946-8f3c6947ec24" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/spark.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basetool/Characters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extensions/IcibaDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kris_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kris_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_kenai_nbpwr_org_apache_batik_all_1_7_201003011305.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basetool/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basetool/KJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basetool/Port.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/Ding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/EatChicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/IconFonts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kris.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kris.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/Kris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/Kris.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/basetool/OuterDir$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/basetool/OuterDir$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/basetool/OuterDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/basetool/OuterDir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$KrisServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$KrisServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/Proxy$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/Proxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/Proxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictComplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictComplete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/YoudaoDictTerminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/SparkHttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/extensions/SparkHttpServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basetool/OuterDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basetool/OuterDir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/commands/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Default.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/extensions/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/Proxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extensions/YoudaoDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/YoudaoDict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +50,8 @@
       <file leaf-file-name="Default.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            <state relative-caret-position="615">
+              <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,38 +59,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kris.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kris.java">
+      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="19" column="143" selection-start-line="19" selection-start-column="143" selection-end-line="19" selection-end-column="143" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="156">
+              <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkHttpServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/extensions/SparkHttpServer.java">
+      <file leaf-file-name="OuterDir.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basetool/OuterDir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="738">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="161">
-                <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Downloader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basetool/Downloader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,10 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Git.java" />
-        <option value="$PROJECT_DIR$/src/ssh/Server.java" />
-        <option value="$PROJECT_DIR$/src/mysql/Database.java" />
         <option value="$PROJECT_DIR$/src/model/AbstractRecord.java" />
         <option value="$PROJECT_DIR$/src/mysql/DatabaseRecord.java" />
         <option value="$PROJECT_DIR$/src/ssh/ServerRecord.java" />
@@ -136,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/extensions/EmlParser.java" />
         <option value="$PROJECT_DIR$/src/extensions/Chardetect.java" />
         <option value="$PROJECT_DIR$/src/basetool/OuterFileReader.java" />
-        <option value="$PROJECT_DIR$/src/basetool/OuterDir.java" />
         <option value="$PROJECT_DIR$/src/extensions/encode/FileCharsetDetector.java" />
         <option value="$PROJECT_DIR$/src/extensions/encode/Chardetect.java" />
         <option value="$PROJECT_DIR$/src/extensions/encode/Demo.java" />
@@ -157,12 +149,19 @@
         <option value="$PROJECT_DIR$/src/extensions/YoudaoDict.java" />
         <option value="$PROJECT_DIR$/src/basetool/Characters.java" />
         <option value="$PROJECT_DIR$/src/extensions/YoudaoDictTerminal.java" />
-        <option value="$PROJECT_DIR$/src/extensions/Proxy.java" />
         <option value="$PROJECT_DIR$/src/extensions/IcibaDict.java" />
-        <option value="$PROJECT_DIR$/src/commands/Default.java" />
-        <option value="$PROJECT_DIR$/src/Kris.java" />
-        <option value="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/extensions/EatChicken.java" />
+        <option value="$PROJECT_DIR$/src/basetool/KJson.java" />
+        <option value="$PROJECT_DIR$/src/Kris.java" />
+        <option value="$PROJECT_DIR$/src/extensions/IconFonts.java" />
+        <option value="$PROJECT_DIR$/src/extensions/Ding.java" />
+        <option value="$PROJECT_DIR$/src/basetool/OuterDir.java" />
+        <option value="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" />
+        <option value="$PROJECT_DIR$/src/basetool/Port.java" />
+        <option value="$PROJECT_DIR$/src/commands/Default.java" />
+        <option value="$PROJECT_DIR$/src/basetool/Downloader.java" />
+        <option value="$PROJECT_DIR$/src/extensions/Proxy.java" />
       </list>
     </option>
   </component>
@@ -172,7 +171,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
@@ -221,25 +220,31 @@
               <item name="kris" type="b2602c69:ProjectViewProjectNode" />
               <item name="kris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="basetool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kris" type="b2602c69:ProjectViewProjectNode" />
               <item name="kris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="extensions" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="kris" type="58d84e3e:PackageViewProjectNode" />
-              <item name="kris" type="616d4139:PackageViewModuleNode" />
+              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,6 +272,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kris" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kris" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,18 +295,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/basetool" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/extensions/proxy" />
-      <recent name="$PROJECT_DIR$/src/extensions/encode" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="extensions" />
@@ -310,9 +327,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkHttpServer">
+  <component name="RunManager" selected="Application.Proxy">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="EatChicken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extensions.EatChicken" />
+      <module name="kris" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extensions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="IcibaDict" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extensions.IcibaDict" />
@@ -325,30 +353,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="JlineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.JlineTest" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Sound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basetool.Sound" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basetool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SparkHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extensions.SparkHttpServer" />
+    <configuration name="IconFonts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extensions.IconFonts" />
       <module name="kris" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -358,8 +364,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="YoudaoDict" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extensions.YoudaoDict" />
+    <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extensions.Proxy" />
+      <module name="kris" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extensions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SparkHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extensions.SparkHttpServer" />
       <module name="kris" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -426,19 +443,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="Application.JlineTest" />
-      <item itemvalue="Application.Sound" />
-      <item itemvalue="Application.YoudaoDict" />
       <item itemvalue="Application.IcibaDict" />
       <item itemvalue="Application.SparkHttpServer" />
+      <item itemvalue="Application.EatChicken" />
+      <item itemvalue="Application.IconFonts" />
+      <item itemvalue="Application.Proxy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Proxy" />
         <item itemvalue="Application.SparkHttpServer" />
+        <item itemvalue="Application.IconFonts" />
+        <item itemvalue="Application.EatChicken" />
         <item itemvalue="Application.IcibaDict" />
-        <item itemvalue="Application.JlineTest" />
-        <item itemvalue="Application.YoudaoDict" />
-        <item itemvalue="Application.Sound" />
       </list>
     </recent_temporary>
   </component>
@@ -457,12 +474,16 @@
       <workItem from="1532915613508" duration="222000" />
       <workItem from="1532915953769" duration="14121000" />
       <workItem from="1533175925375" duration="27757000" />
-      <workItem from="1533377753329" duration="48332000" />
+      <workItem from="1533377753329" duration="50714000" />
+      <workItem from="1533697842397" duration="3397000" />
+      <workItem from="1533781784124" duration="196000" />
+      <workItem from="1533885402056" duration="2404000" />
+      <workItem from="1534383624841" duration="6958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133101000" />
+    <option name="totallyTimeSpent" value="148438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,70 +495,71 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4988662" weight="0.24964234" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3289855" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Regex Tester" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39130434" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5011338" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2826087" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2942029" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4988662" weight="0.24964234" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5011338" side_tool="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4988662" weight="0.24964234" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38115942" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5536232" />
       <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Regex Tester" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33043477" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011338" side_tool="true" weight="0.24964234" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2942029" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289855" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3289855" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289855" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Regex Tester" order="12" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,82 +578,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="269" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/littleproxy-1.1.2-sources.jar!/org/littleshoot/proxy/impl/ProxyConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="692" selection-start-line="692" selection-end-line="692" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/handler/timeout/IdleStateHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="287" selection-start-line="287" selection-end-line="287" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/utils/Console.java" />
-    <entry file="jar://$PROJECT_DIR$/libs/littleproxy-1.1.2-sources.jar!/org/littleshoot/proxy/HttpFiltersSourceAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/examples/ReverseProxy.java" />
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/URLFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/XSLTResponseModifierAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/XSLTURLFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/ResponseModifierSourceAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/ResponseModifierAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/extensions/proxy/RegExResponseModifierAdapter.java" />
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/handler/codec/http/multipart/InterfaceHttpData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/handler/codec/http/multipart/InterfaceHttpPostRequestDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/netty-all-4.0.44.Final-sources.jar!/io/netty/handler/codec/http/multipart/HttpPostRequestDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="220" column="28" lean-forward="true" selection-start-line="220" selection-start-column="28" selection-end-line="220" selection-end-column="28" />
-          <folding>
-            <element signature="e#8480#8481#0" expanded="true" />
-            <element signature="e#8529#8530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/regex/Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="1023" column="38" selection-start-line="1023" selection-start-column="16" selection-end-line="1023" selection-end-column="38" />
-          <folding>
-            <element signature="e#48487#48488#0" expanded="true" />
-            <element signature="e#48531#48532#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -646,16 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="420" column="54" lean-forward="true" selection-start-line="420" selection-start-column="54" selection-end-line="420" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/OuterDir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,10 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding>
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,11 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,9 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,9 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29">
           <caret line="19" column="96" selection-start-line="19" selection-start-column="96" selection-end-line="19" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,17 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-257">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,21 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/Chardetect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,10 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-239">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,10 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1565#1575#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,18 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1681">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#16837#16838#0" expanded="true" />
-            <element signature="e#16872#16873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="133" column="35" lean-forward="true" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -868,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="54" column="96" selection-start-line="54" selection-start-column="96" selection-end-line="54" selection-end-column="96" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,16 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/EscapeUnescape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -905,17 +762,124 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
-          <folding>
-            <element signature="e#11855#11856#0" expanded="true" />
-            <element signature="e#11895#11896#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/EscapeUnescape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="288">
+            <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="19" column="143" selection-start-line="19" selection-start-column="143" selection-end-line="19" selection-end-column="143" />
+        <state relative-caret-position="540">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lsi_weibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/mail.stg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/EatChicken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/Chardetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/nio/file/WatchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/nio/file/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="466" column="33" selection-start-line="466" selection-start-column="33" selection-end-line="466" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/Ding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/IconFonts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/kris-proxy.jar!/io/netty/handler/codec/http/FullHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-cache/bocdfgj.jeary.com.cn/build/res/4_2-974b9d21.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/KJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/Port.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -924,31 +888,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/extensions/SparkHttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-329">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-cache/bocdfgj.jeary.com.cn/build/res/1_line1-6f3a85b6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-cache/ocsp.digicert.com">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-cache/www.win7zhijia.cn/images/win7ads.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy-cache/www.win7zhijia.cn/jiaocheng/win7_11219.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="615">
+          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="161">
-            <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/basetool/OuterDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/Downloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1030,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>spark</last-edited>
+          <last-edited>chardet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

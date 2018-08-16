@@ -6,7 +6,6 @@ import io.airlift.command.Command;
 import io.airlift.command.Option;
 import io.airlift.command.OptionType;
 import me.tongfei.progressbar.ProgressBar;
-import test.JlineTest;
 
 import java.net.InetAddress;
 
@@ -79,10 +78,16 @@ public class Default {
         public int port = 8888;
         @Option(type = OptionType.COMMAND, name = {"-k", "--keyword"}, description = "regex pattern of keyword to match your target response body(default empty,run on transparent mode without analyse)")
         public String keyword = "";
+        @Option(type = OptionType.COMMAND, name = {"--cache"}, description = "if you want to cache all response file,give the argv")
+        public String cache_path = "";
 
         @Override
         public void run() {
-            new extensions.Proxy(port, keyword).listen();
+            Proxy p = new extensions.Proxy(port, keyword);
+            if (!cache_path.equals("")) {
+                p.cache(cache_path);
+            }
+            p.listen();
         }
     }
 
@@ -122,6 +127,7 @@ public class Default {
                 server.setFilePath(filepath);
             }
             server.start();
+            System.out.println("wtf");
         }
     }
 

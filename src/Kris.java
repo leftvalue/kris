@@ -4,6 +4,8 @@ import commands.Tencent;
 import io.airlift.command.Cli;
 import io.airlift.command.Help;
 
+import java.util.Base64;
+
 /**
  * @author linxi
  * www.leftvalue.top

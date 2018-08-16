@@ -2,6 +2,7 @@ package basetool;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.filefilter.FileFileFilter;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,5 +36,25 @@ public class OuterDir {
             }
         }, null);
         return files;
+    }
+
+    /**
+     * 创建多级目录文件
+     *
+     * @param path 文件路径
+     * @throws IOException
+     */
+    public static void createFile(String path) {
+        try {
+            if (StringUtils.isNotEmpty(path)) {
+                File file = new File(path);
+                if (!file.getParentFile().exists() || (file.getParentFile().isFile())) {
+                    file.getParentFile().mkdirs();
+                }
+                file.createNewFile();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

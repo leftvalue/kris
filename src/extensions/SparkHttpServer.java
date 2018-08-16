@@ -1,5 +1,6 @@
 package extensions;
 
+import basetool.Port;
 import com.alibaba.fastjson.JSON;
 import spark.Spark;
 
@@ -16,6 +17,7 @@ import static spark.Spark.*;
  * Date 2018/8/7 5:16 PM
  */
 public class SparkHttpServer {
+
     private static final String NotFoundStr = "{\"message\":\"你寻找的页面去了火星,追随着它的理想\"}";
     private int port = 80;
     private String content;
@@ -56,13 +58,19 @@ public class SparkHttpServer {
 
     public void start() {
         try {
+            if (Port.isLocalPortUsing(port)) {
+                System.out.println("localhost:" + port + " is using\nchange to localhost:" + (port + 1));
+                port += 1;
+                start();
+                return;
+            }
             port(port);
             if (filePath != null) {
                 File webroot = new File(filePath);
                 if (webroot.exists() && webroot.isDirectory()) {
                     this.filePath = webroot.getAbsolutePath();
                     staticFiles.externalLocation(webroot.getAbsolutePath());
-                    System.out.println("File Server listen on port " + port);
+                    System.out.println("File Server listen on http://127.0.0.1:" + port);
                     notFound((req, res) -> {
                         String uri = URLDecoder.decode(req.uri());
                         /**
@@ -86,7 +94,7 @@ public class SparkHttpServer {
                      */
                     get("/"
                             , (req, res) -> content);
-                    System.out.println("Simple Content server listen on port " + port);
+                    System.out.println("Simple Content server listen on http://127.0.0.1:" + port);
                 } else {
                     System.out.println("Please set at least content or filePath before start server");
                 }
@@ -95,6 +103,6 @@ public class SparkHttpServer {
             e.printStackTrace();
             System.out.println("server start failed");
         }
-
     }
 }
+

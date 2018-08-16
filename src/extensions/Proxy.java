@@ -1,6 +1,8 @@
 package extensions;
 
 import basetool.Colors;
+import basetool.Downloader;
+import basetool.OuterDir;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.*;
 import io.netty.handler.codec.http.multipart.HttpPostRequestDecoder;
@@ -12,6 +14,7 @@ import org.littleshoot.proxy.HttpFiltersSourceAdapter;
 import org.littleshoot.proxy.HttpProxyServer;
 import org.littleshoot.proxy.impl.DefaultHttpProxyServer;
 
+import java.io.File;
 import java.nio.charset.Charset;
 import java.util.List;
 import java.util.Map;
@@ -29,12 +32,58 @@ import java.util.regex.PatternSyntaxException;
  */
 public class Proxy {
     public static void main(String[] args) {
-        new Proxy(8888, "以上分辨率访问本网站").listen();
+        Proxy proxy = new Proxy(8888, "以上分辨率访问本网站");
+        proxy.cache("proxy-cache");
+        proxy.listen();
     }
 
     private int port;
     private Pattern keyword_pattern;
     private boolean need_analyse;
+    private boolean ifCache = false;
+    private String cacheRootPath = "proxy-cache";
+
+    /**
+     * 在指定目录下缓存所有的response
+     *
+     * @param path
+     */
+    public void cache(String path) {
+        ifCache = true;
+        cacheRootPath = path;
+        try {
+            File f = new File(cacheRootPath);
+            if (!f.exists()) {
+                f.mkdirs();
+            }
+            cacheRootPath = f.getAbsolutePath();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("SET UP cache on <" + this.cacheRootPath + ">");
+    }
+
+    /**
+     * 下载 response
+     * 暂时没有发现好的办法,决定使用 jsoup 重发 url 请求
+     *
+     * @param url
+     * @param response
+     */
+    private void cacheResponse(String url, String method, FullHttpResponse response) {
+        String url_path = url.replaceAll("\\?.*", "")
+                .replaceAll("https?://", "")
+                .replaceAll("^//", "");
+        if (url_path.endsWith("/")) {
+            /**
+             * because you can not have one file and one direction 
+             */
+            url_path += "index.html";
+        }
+        url_path = cacheRootPath + "/" + url_path;
+        OuterDir.createFile(url_path);
+        new Downloader().download(url_path, method, url);
+    }
 
     public Proxy(int port, String keyword_pattern_string) {
         this.port = port;
@@ -90,6 +139,9 @@ public class Proxy {
                                     @Override
                                     public HttpObject serverToProxyResponse(HttpObject httpObject) {
                                         FullHttpResponse httpResponse = (FullHttpResponse) httpObject;
+                                        if (ifCache) {
+                                            cacheResponse(req.getUri(), req.getMethod().name(), httpResponse);
+                                        }
                                         if (need_analyse) {
                                             String content = httpResponse.content().toString(
                                                     this.getCharset(true)
