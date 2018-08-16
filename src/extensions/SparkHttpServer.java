@@ -41,9 +41,7 @@ public class SparkHttpServer {
     private static String getFilesInfo(String path) {
         try {
             File dir = new File(path);
-            File[] child_files = dir.listFiles(file -> {
-                return true;
-            });
+            File[] child_files = dir.listFiles(file -> true);
             LinkedList<String> fss = new LinkedList<>();
             fss.add(".");
             fss.add("..");

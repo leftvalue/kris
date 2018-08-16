@@ -1,7 +1,7 @@
 package extensions;
 
 import basetool.Colors;
-import basetool.Downloader;
+import basetool.WebDownloader;
 import basetool.OuterDir;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.*;
@@ -31,12 +31,6 @@ import java.util.regex.PatternSyntaxException;
  * and it will print the curl command so that u can resend it to review the response
  */
 public class Proxy {
-    public static void main(String[] args) {
-        Proxy proxy = new Proxy(8888, "以上分辨率访问本网站");
-        proxy.cache("proxy-cache");
-        proxy.listen();
-    }
-
     private int port;
     private Pattern keyword_pattern;
     private boolean need_analyse;
@@ -71,18 +65,31 @@ public class Proxy {
      * @param response
      */
     private void cacheResponse(String url, String method, FullHttpResponse response) {
-        String url_path = url.replaceAll("\\?.*", "")
+        String path = url
+                /**
+                 * remove query data
+                 */
+                .replaceAll("\\?.*", "")
+                /**
+                 * remove http:// https://
+                 */
                 .replaceAll("https?://", "")
+                /**
+                 * remove // (some resource file url(//..))
+                 */
                 .replaceAll("^//", "");
-        if (url_path.endsWith("/")) {
+        if (path.endsWith("/")) {
             /**
-             * because you can not have one file and one direction 
+             * because you can not have one file and one direction
              */
-            url_path += "index.html";
+            path += "index.html";
         }
-        url_path = cacheRootPath + "/" + url_path;
-        OuterDir.createFile(url_path);
-        new Downloader().download(url_path, method, url);
+        path = cacheRootPath + "/" + path;
+        /**
+         * create parent dir to prepare the file
+         */
+        OuterDir.createFile(path);
+        new WebDownloader().download(path, method, url);
     }
 
     public Proxy(int port, String keyword_pattern_string) {

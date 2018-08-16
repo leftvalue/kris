@@ -7,7 +7,9 @@ package basetool;
  * Date 2018/8/6 1:09 PM
  */
 public class Characters {
-    // 根据Unicode编码完美的判断中文汉字和符号
+    /**
+     * 根据Unicode编码完美的判断中文汉字和符号
+     */
     public static boolean isChinese(char c) {
         Character.UnicodeBlock ub = Character.UnicodeBlock.of(c);
         if (ub == Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS

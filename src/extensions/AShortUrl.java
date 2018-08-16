@@ -49,8 +49,4 @@ public class AShortUrl extends AbstractAction {
             return "缩短目标网址失败(" + e.getMessage() + ")";
         }
     }
-
-    public static void main(String[] args) {
-        System.out.println(new AShortUrl().execute("http://data.v.qq.com/videocms/youyunnan/index.php?city=怒江&ts=1532506403&signature=6b31613c1886dae3f68e44af6af0f428"));
-    }
 }

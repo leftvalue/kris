@@ -6,8 +6,16 @@ import org.jsoup.Jsoup;
 import java.io.File;
 import java.io.FileOutputStream;
 
-public class Downloader {
-
+/**
+ * @author linxi
+ */
+public class WebDownloader {
+    /**
+     * @param path
+     * @param method
+     * @param url
+     * @return
+     */
     public boolean download(String path, String method, String url) {
         try {
             Connection.Response response =
@@ -21,7 +29,7 @@ public class Downloader {
             os.close();
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("download " + path + " fail.");
             return false;
         }
     }

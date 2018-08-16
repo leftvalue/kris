@@ -1,7 +1,8 @@
-package extensions;
+package playground;
 
 import basetool.EscapeUnescape;
 import com.alibaba.fastjson.JSON;
+import extensions.AShortUrl;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 
@@ -15,7 +16,7 @@ import java.util.HashMap;
  * 生成吃鸡的分享外链
  * todo: 根据击杀数自动调整其他参数 , 增加真实感
  */
-public class EatChicken {
+public class PUBG {
     public static void main(String[] args) throws Exception {
         String qq = "1072509797";
         String name_url = "http://users.qzone.qq.com/fcg-bin/cgi_get_portrait.fcg?uins=" + qq;

@@ -15,12 +15,13 @@ public class EscapeUnescape {
         for (i = 0; i < src.length(); i++) {
             j = src.charAt(i);
             if (Character.isDigit(j) || Character.isLowerCase(j)
-                    || Character.isUpperCase(j))
+                    || Character.isUpperCase(j)) {
                 tmp.append(j);
-            else if (j < 256) {
+            } else if (j < 256) {
                 tmp.append("%");
-                if (j < 16)
+                if (j < 16) {
                     tmp.append("0");
+                }
                 tmp.append(Integer.toString(j, 16));
             } else {
                 tmp.append("%u");
@@ -61,20 +62,4 @@ public class EscapeUnescape {
         }
         return tmp.toString();
     }
-
-    /**
-     * @param src
-     * @return
-     * @disc 对字符串重新编码
-     */
-    public static String isoToUTF(String src) {
-        String strRet = null;
-        try {
-            strRet = new String(src.getBytes("ISO_8859_1"), "UTF-8");
-        } catch (Exception e) {
-
-        }
-        return strRet;
-    }
-
 }
