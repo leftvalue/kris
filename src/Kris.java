@@ -4,12 +4,9 @@ import commands.Tencent;
 import io.airlift.command.Cli;
 import io.airlift.command.Help;
 
-import java.util.Base64;
-
 /**
  * @author linxi
  * www.leftvalue.top
- * PACKAGE_NAME
  * Date 2018/7/27 4:29 PM
  */
 public class Kris {

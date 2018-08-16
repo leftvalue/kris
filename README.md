@@ -12,7 +12,7 @@ Tired for those repeated things,hating doing some stupid thing manually,and do n
 * Shorten URL
 * Guess file encoding / add BOM to file
 * Get LocalHost Name/Ip
-* A http proxy that helps analyse response to found matched request
+* A http proxy that helps analyse response to found matched request / download all response in the appropriate directory, better than 'wget -l 1 -p -np -k' because some resource files are dynamic required so they cannot be analysed by wget
 * Youdao English-Chinese Dictionary with <TAB> completion
 * Simple HttpServer ,used for test network stata or set up a file download server in LAN
 ### Tencent Package
