@@ -15,6 +15,7 @@ Tired for those repeated things,hating doing some stupid thing manually,and do n
 * A http proxy that helps analyse response to found matched request / download all response in the appropriate directory, better than 'wget -l 1 -p -np -k' because some resource files are dynamic required so they cannot be analysed by wget
 * Youdao English-Chinese Dictionary with <TAB> completion
 * Simple HttpServer ,used for test network stata or set up a file download server in LAN
+* A servant,who will ring 3 times when receive request on a target port or watched a target file modified 
 ### Tencent Package
 * Generate tencent weekly email template html
 * Read mails(exported as eml using foxmail) and output latest password of servers

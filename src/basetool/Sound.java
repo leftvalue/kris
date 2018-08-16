@@ -13,10 +13,6 @@ import sun.audio.AudioPlayer;
 import sun.audio.AudioStream;
 
 public class Sound {
-    public static void main() {
-
-    }
-
     public static final String basePath = "/sounds/Cherry_G80_3494/G80-3494";
 
     private void ring(String name) {
@@ -27,6 +23,24 @@ public class Sound {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void play(String name) {
+        try {
+            // 1.wav 文件放在java project 下面
+            AudioStream as = new AudioStream(this.getClass().getResourceAsStream("/" + name));
+            AudioPlayer.player.start(as);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void iphone() {
+        play("iphone.wav");
+    }
+
+    public void baidu() {
+        play("baidu.wav");
     }
 
     public void normal() {

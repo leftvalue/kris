@@ -25,7 +25,6 @@ public class Port {
             flag = isPortUsing("127.0.0.1", port);
         } catch (Exception e) {
         }
-        System.out.println("flag" + flag);
         return flag;
     }
 

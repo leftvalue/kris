@@ -1,6 +1,7 @@
 package commands;
 
 import extensions.*;
+import extensions.ding.Ding;
 import io.airlift.command.Arguments;
 import io.airlift.command.Command;
 import io.airlift.command.Option;
@@ -127,7 +128,21 @@ public class Default {
                 server.setFilePath(filepath);
             }
             server.start();
-            System.out.println("wtf");
+        }
+    }
+
+    @Command(name = "ding", description = "listen on a port and watch a file,once you send a request to the port or modify the file ,ring 3 times to alert you")
+    public static class Dingding implements Runnable {
+        @Option(name = {"-p", "--port"}, description = "the port that be listen")
+        public int port = 1234;
+        @Option(name = "--path", description = "the path to watch")
+        public String filepath = "ding";
+
+        @Override
+        public void run() {
+            Ding d = new Ding();
+            d.portMonitor(port);
+            d.fileMonitor(filepath);
         }
     }
 

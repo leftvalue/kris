@@ -7,11 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d51c1a39-3fb0-42ba-a946-8f3c6947ec24" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/extensions/ding/AbstractNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/ding/Ding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/ding/DingdingNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/ding/FileWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extensions/ding/SimpleHttpPortListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sounds/baidu.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sounds/iphone.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SocketListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/basetool/Downloader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/EatChicken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/kris_jar/kris.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/Kris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/Kris.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/basetool/Port.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/basetool/Port.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/basetool/Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/basetool/Sound.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$Encode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$Encode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$HttpProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$HttpProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$Ip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$Ip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$KrisCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$KrisCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$KrisServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$KrisServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$ShortenURL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$ShortenURL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$TerminalMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$TerminalMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default$Youdao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default$Youdao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/commands/Default.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kris/commands/Default.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kris/extensions/Ding.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kris.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extensions/Ding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extensions/Ding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basetool/Port.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basetool/Port.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basetool/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basetool/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/Default.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/Default.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/Ding.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +53,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EscapeUnescape.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basetool/EscapeUnescape.java">
+      <file leaf-file-name="Default.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="184">
+              <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Chip.java">
+      <file leaf-file-name="FileWatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/extensions/ding/FileWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="839">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ding.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/extensions/ding/Ding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OuterDir.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basetool/OuterDir.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,46 +104,49 @@
       <file leaf-file-name="Kris.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Kris.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="108">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#319#329#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ding.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/extensions/Ding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1996#1997#0" expanded="true" />
-                <element signature="e#2065#2066#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PUBG.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/playground/PUBG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="43">
-                <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+              <first_editor relative-caret-position="86">
+                <caret line="17" column="105" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleHttpPortListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/extensions/ding/SimpleHttpPortListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DingdingNotice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/extensions/ding/DingdingNotice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,19 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/Chip.java" />
-        <option value="$PROJECT_DIR$/src/extensions/AbstractAction.java" />
-        <option value="$PROJECT_DIR$/src/extensions/ShortUrl.java" />
-        <option value="$PROJECT_DIR$/src/commands/Tool.java" />
-        <option value="$PROJECT_DIR$/templates/main.stg" />
-        <option value="$PROJECT_DIR$/src/extensions/readme.md" />
-        <option value="$PROJECT_DIR$/templates/mail.stg" />
-        <option value="$PROJECT_DIR$/src/extensions/MailHtmlCreater.java" />
-        <option value="$PROJECT_DIR$/src/O.java" />
-        <option value="$PROJECT_DIR$/流程管理系统通知.eml" />
-        <option value="$PROJECT_DIR$/src/commands/Tencent.java" />
-        <option value="$PROJECT_DIR$/src/extensions/EmlParser.java" />
-        <option value="$PROJECT_DIR$/src/extensions/Chardetect.java" />
         <option value="$PROJECT_DIR$/src/extensions/encode/FileCharsetDetector.java" />
         <option value="$PROJECT_DIR$/src/extensions/encode/Chardetect.java" />
         <option value="$PROJECT_DIR$/src/extensions/encode/Demo.java" />
@@ -139,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/extensions/SuperTerminalMode.java" />
         <option value="$PROJECT_DIR$/src/basetool/Colors.java" />
         <option value="$PROJECT_DIR$/src/basetool/ResourceReader.java" />
-        <option value="$PROJECT_DIR$/src/basetool/Sound.java" />
         <option value="$PROJECT_DIR$/src/basetool/SystemClipboardTools.java" />
         <option value="$PROJECT_DIR$/src/extensions/SoundTypeWriter.java" />
         <option value="$PROJECT_DIR$/src/commands/Fun.java" />
@@ -149,9 +193,6 @@
         <option value="$PROJECT_DIR$/src/extensions/IcibaDict.java" />
         <option value="$PROJECT_DIR$/src/extensions/EatChicken.java" />
         <option value="$PROJECT_DIR$/src/extensions/IconFonts.java" />
-        <option value="$PROJECT_DIR$/src/basetool/OuterDir.java" />
-        <option value="$PROJECT_DIR$/src/basetool/Port.java" />
-        <option value="$PROJECT_DIR$/src/commands/Default.java" />
         <option value="$PROJECT_DIR$/src/basetool/Characters.java" />
         <option value="$PROJECT_DIR$/src/basetool/Downloader.java" />
         <option value="$PROJECT_DIR$/src/basetool/WebDownloader.java" />
@@ -163,9 +204,26 @@
         <option value="$PROJECT_DIR$/src/playground/PUBG.java" />
         <option value="$PROJECT_DIR$/src/extensions/Proxy.java" />
         <option value="$PROJECT_DIR$/src/extensions/SparkHttpServer.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/Kris.java" />
+        <option value="$PROJECT_DIR$/src/basetool/Sound.java" />
+        <option value="$PROJECT_DIR$/src/basetool/SocketListener.java" />
+        <option value="$PROJECT_DIR$/src/test/SocketListener.java" />
+        <option value="$PROJECT_DIR$/src/basetool/Main.java" />
+        <option value="$PROJECT_DIR$/src/basetool/NativeHttpServer.java" />
         <option value="$PROJECT_DIR$/src/extensions/Ding.java" />
+        <option value="$PROJECT_DIR$/src/basetool/AbstractNotice.java" />
+        <option value="$PROJECT_DIR$/src/basetool/SimpleHttpListener.java" />
+        <option value="$PROJECT_DIR$/src/basetool/SimpleHttpPortListener.java" />
+        <option value="$PROJECT_DIR$/src/basetool/FileWatcher.java" />
+        <option value="$PROJECT_DIR$/src/extensions/ding/AbstractNotice.java" />
+        <option value="$PROJECT_DIR$/src/extensions/ding/DingdingNotice.java" />
+        <option value="$PROJECT_DIR$/src/extensions/ding/SimpleHttpPortListener.java" />
+        <option value="$PROJECT_DIR$/src/basetool/Port.java" />
+        <option value="$PROJECT_DIR$/src/commands/Default.java" />
+        <option value="$PROJECT_DIR$/src/Kris.java" />
+        <option value="$PROJECT_DIR$/src/extensions/ding/FileWatcher.java" />
+        <option value="$PROJECT_DIR$/src/extensions/ding/Ding.java" />
+        <option value="$PROJECT_DIR$/src/basetool/OuterDir.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -175,7 +233,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
@@ -224,25 +282,26 @@
               <item name="kris" type="b2602c69:ProjectViewProjectNode" />
               <item name="kris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kris" type="b2602c69:ProjectViewProjectNode" />
               <item name="kris" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="ding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kris" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kris" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kris" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kris" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,18 +352,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sounds" />
       <recent name="$PROJECT_DIR$/src/basetool" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/extensions/proxy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="extensions" />
@@ -325,61 +384,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ding">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="Ding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extensions.Ding" />
+      <option name="MAIN_CLASS_NAME" value="extensions.ding.Ding" />
       <module name="kris" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extensions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="IconFonts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extensions.IconFonts" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PUBG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.PUBG" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extensions.Proxy" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SparkHttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extensions.SparkHttpServer" />
-      <module name="kris" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
+          <option name="PATTERN" value="extensions.ding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,20 +455,9 @@
       <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <list>
-      <item itemvalue="Application.SparkHttpServer" />
-      <item itemvalue="Application.PUBG" />
-      <item itemvalue="Application.IconFonts" />
-      <item itemvalue="Application.Proxy" />
-      <item itemvalue="Application.Ding" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Ding" />
-        <item itemvalue="Application.Proxy" />
-        <item itemvalue="Application.SparkHttpServer" />
-        <item itemvalue="Application.IconFonts" />
-        <item itemvalue="Application.PUBG" />
       </list>
     </recent_temporary>
   </component>
@@ -476,12 +480,12 @@
       <workItem from="1533697842397" duration="3397000" />
       <workItem from="1533781784124" duration="196000" />
       <workItem from="1533885402056" duration="2404000" />
-      <workItem from="1534383624841" duration="9317000" />
+      <workItem from="1534383624841" duration="18431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150797000" />
+    <option name="totallyTimeSpent" value="159911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,7 +497,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -507,12 +511,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34927535" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2942029" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36666667" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46086955" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19384836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4988662" weight="0.24964234" />
       <window_info id="UI Designer" order="2" />
@@ -521,7 +526,6 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289855" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5011338" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -568,7 +572,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -576,81 +580,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/libs/jline-3.6.1.jar!/org/jline/terminal/TerminalBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/jline-3.6.1.jar!/org/jline/reader/LineReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662">
-          <caret line="224" column="11" selection-start-line="224" selection-start-column="11" selection-end-line="224" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/jline-3.6.1.jar!/org/jline/reader/impl/completer/StringsCompleter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sounds/schemes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-772" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/SystemClipboardTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/Sound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/ResourceReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/jline-3.6.1.jar!/org/jline/reader/Completer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/jline-3.6.1-sources.jar!/org/jline/reader/Completer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/JlineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/jline-3.6.1-sources.jar!/org/jline/reader/Candidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/commands/Fun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-239">
@@ -676,13 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/spark.jar!/spark/Spark.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
         </state>
       </provider>
     </entry>
@@ -743,16 +665,6 @@
     <entry file="file://$PROJECT_DIR$/proxy-cache/www.win7zhijia.cn/jiaocheng/win7_11219.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basetool/Characters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -781,26 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/OuterDir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basetool/Port.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/SparkHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/extensions/SuperTerminalMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="846">
@@ -910,42 +792,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="43">
-            <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/nio/file/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1177">
+          <caret line="708" column="13" selection-start-line="708" selection-start-column="13" selection-end-line="708" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/fs/PollingWatchService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#1484#1673#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/Sound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/net/httpserver/HttpServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SocketListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/spark.jar!/spark/Spark.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="361" column="22" selection-start-line="361" selection-start-column="22" selection-end-line="361" selection-end-column="22" />
+          <folding>
+            <element signature="e#11927#11928#0" expanded="true" />
+            <element signature="e#11970#11971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/SparkHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="87" column="19" selection-start-line="84" selection-start-column="15" selection-end-line="87" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basetool/EscapeUnescape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="176">
           <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/ding/DingdingNotice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/ding/AbstractNotice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/ding/SimpleHttpPortListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/Port.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/nio/file/Paths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="e#2741#2742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands/Default.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="133" column="35" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="108">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extensions/ding/FileWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="839">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/extensions/Ding.java">
+    <entry file="file://$PROJECT_DIR$/src/extensions/ding/Ding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        <state relative-caret-position="92">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1996#1997#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basetool/OuterDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="86">
+            <caret line="17" column="105" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

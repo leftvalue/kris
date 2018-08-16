@@ -14,13 +14,22 @@ public class Kris {
         Cli.CliBuilder<Runnable> builder = Cli.<Runnable>builder("kris")
                 .withDescription("kristendi's tools that's change the world")
                 .withDefaultCommand(Help.class)
-                .withCommands(Help.class, Default.ShortenURL.class,
-                        Default.Encode.class, Default.Test.class
-                        , Default.Ip.class, Default.HttpProxy.class, Default.TerminalMode.class, Default.Youdao.class, Default.KrisServer.class);
+                .withCommands(Help.class,
+                        Default.ShortenURL.class,
+                        Default.Encode.class,
+                        Default.Test.class
+                        , Default.Ip.class,
+                        Default.HttpProxy.class,
+                        Default.TerminalMode.class,
+                        Default.Youdao.class,
+                        Default.KrisServer.class,
+                        Default.Dingding.class
+                );
         builder.withGroup("tencent")
                 .withDescription("some tools for daily use in tencent")
                 .withDefaultCommand(Tencent.Mail.class)
-                .withCommands(Tencent.Mail.class, Tencent.ServerParser.class);
+                .withCommands(Tencent.Mail.class,
+                        Tencent.ServerParser.class);
         builder.withGroup("fun")
                 .withDescription("some thing just for fun :)")
                 .withDefaultCommand(Fun.TypeWriter.class)
