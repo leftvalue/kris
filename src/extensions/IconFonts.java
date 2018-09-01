@@ -69,7 +69,8 @@ public class IconFonts {
                 String svg = icon.getString("svg");
                 System.out.println(svg);
                 String path = fdir.getAbsolutePath() + "/" + id + ".png";
-                convertToPng(svg, path);
+//                convertToPng(svg, path);
+                System.exit(1);
             }
         }
     }
