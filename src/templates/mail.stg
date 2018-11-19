@@ -131,6 +131,7 @@ mail(m,ws)::=<<
             padding-left: 85%;
         }
     </style>
+    <script>document.body.contentEditable='true'; document.designMode='on';</script>
 </head>
 <body>
 <div class="outer">

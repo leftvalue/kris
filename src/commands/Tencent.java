@@ -16,7 +16,7 @@ import java.util.LinkedList;
  * Date 2018/7/28 10:59 PM
  */
 public class Tencent {
-    @Command(name = "mail", description = "Generate weekly mail template of tencent (auto copy to clipboard)")
+    @Command(name = "mail", description = "Generate weekly mail template of tencent")
     public static class Mail implements Runnable {
         @Arguments(description = "rows of works")
         public int row_count = 2;
@@ -32,8 +32,9 @@ public class Tencent {
                 row_count = 1;
             }
             String template = new MailHtmlCreater().getSimpleTemplate(author, title, row_count);
-            SystemClipboardTools.write(template);
-            System.out.println("Success generate and copy to your clipboard !");
+//            SystemClipboardTools.write(template);
+//            System.out.println("Success generate and copy to your clipboard !");
+            System.out.println(template);
         }
     }
 
